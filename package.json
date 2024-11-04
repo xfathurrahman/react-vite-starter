@@ -13,7 +13,6 @@
     "format:check": "prettier --check .",
     "format:fix": "prettier --write .",
     "clean": "rm -rf dist ./.visualizer ./node_modules/",
-    "visualize": "vite-bundle-visualizer --open --output ./.visualizer/stats.html",
     "lint": "eslint . --report-unused-disable-directives --max-warnings 0 --config eslint.config.js",
     "lint:fix": "eslint . --report-unused-disable-directives --max-warnings 0 --config eslint.config.js --fix",
     "release": "standard-version",
